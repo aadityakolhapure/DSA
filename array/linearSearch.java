@@ -1,6 +1,6 @@
 import java.util.Scanner;
-public class array {
-    public static int linearSearch(int arr[], int key) {
+public class linearSearch {
+    public static int linear(int arr[], int key) {
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] == key) {
                 return i+1;
@@ -16,7 +16,7 @@ public class array {
         int key = sc.nextInt();
         // int key = 30;
 
-        int index = linearSearch(arr, key);
+        int index = linear(arr, key);
         if (index == -1) {
             System.out.println("Element not found");
         } else
