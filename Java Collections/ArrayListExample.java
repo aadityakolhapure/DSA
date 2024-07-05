@@ -12,6 +12,7 @@ public class ArrayListExample {
         System.out.println("Student Names: " + studentName);
 
         List<String> languages = new ArrayList<>();
+        //add the element
         languages.add("Java");
         languages.add("C++");
         languages.add("Python");
